@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #FBBF24;
+    --black: #333333;
+    --width-break:600px
+}
+
+body {
+    font-family: 'Courgette', cursive;
+}
+
+nav {
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 5rem;
+    font-weight: bold;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+.button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+}
+
+#translate-output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
+    border: 1px solid var(--black);
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 8rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 8rem;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
