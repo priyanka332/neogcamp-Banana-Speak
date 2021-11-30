@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Prata&display=swap');
 
-* {
-    box-sizing: border-box;
-}
 :root {
     --primary-color: #FBBF24;
     --black: #333333;
@@ -11,62 +8,63 @@
 
 body {
     font-family: 'Courgette', cursive;
+    font-family: 'Prata', serif;
 }
 
 nav {
     background-color: var(--primary-color);
     text-align: center;
-    color: white;
-    padding: 1rem;
-    border-top-right-radius: 1rem;
+    color: black;
     border-top-left-radius: 5rem;
-    border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 5rem;
-    font-weight: bold;
-}
-
-main {
-    margin: auto;
-    padding: 1rem;
-    max-width: var(--width-break);
 }
 
 textarea {
+    position: relative;
+    left: 20rem;
     box-sizing: border-box;
     display: block;
-    width: 100%;
+    width: 53%;
     min-height: 20vh;
     margin-top: 2rem;
     font-size: large;
     font-family: inherit;
+    margin: 1rem;
+}
+#output{
+    position: relative;
+    left: 20rem;
+    border: 1px solid black;
+    min-height: 15vh;
+    margin-top: 2rem;
+    width: 50%;
+    margin: 1rem;
+    overflow: scroll;
 }
 
-.button {
-    background-color: var(--primary);
-    border: none;
-    margin: 1rem 0rem;
-    padding: 1rem 2rem;
-    font-family: 'Kalam', cursive;
-    font-size: large;
-}
-
-#translate-output {
+#btn-translate {
+    position: relative;
+    left: 30rem;
     box-sizing: border-box;
-    width: 100%;
+    width:25%;
     min-height: 10vh;
-    max-height: 20vh;
-    overflow:scroll;
+    max-height: 15vh;
+    font-size: large;
     border: 1px solid var(--black);
+    background-color: var(--primary-color);
+}
+.box{
+    position: relative;
+    left: 30.5rem;
+    margin-top: 1rem;
 }
 
 footer {
     background-color: var(--primary-color);
-    padding: 1.5rem 1rem;
+    padding: 0rem 0rem;
     text-align: center;
-    color: white;
-    border-top-right-radius: 1rem;
+    color: black;
     border-top-left-radius: 8rem;
-    border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 8rem;
 }
 

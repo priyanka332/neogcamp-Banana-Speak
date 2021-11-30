@@ -29,6 +29,3 @@ function clickHandler() {
 };
 
 btnTranslate.addEventListener("click", clickHandler)
-
-
-// console.log(btnTranslate);
